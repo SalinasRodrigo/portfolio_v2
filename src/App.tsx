@@ -1,13 +1,28 @@
-import './App.css'
-import ThemeToggle from './components/Toggel'
+import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
 
-export default function App() {
+import en from "./locales/en.json";
+import es from "./locales/es.json";
+
+function Home() {
+  const { lang } = useParams<{ lang: "es" | "en" }>();
+  const t = lang === "en" ? en : es;
+  return <h1>{t.welcome}</h1>;
+}
+
+function About() {
+  const { lang } = useParams<{ lang: "es" | "en" }>();
+  const t = lang === "en" ? en : es;
+  return <h1>{t.about}</h1>;
+}
+
+export default function AppRouter() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900">
-      <h1 className="text-4xl font-bold text-gray-900 dark:text-amber-400">
-        Hola Tailwind 🌙
-      </h1>
-      <ThemeToggle />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/es" replace />} />
+        <Route path="/:lang/home" element={<Home />} />
+        <Route path="/:lang/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
