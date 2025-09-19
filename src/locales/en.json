@@ -1,5 +1,87 @@
 {
   "home": "Home",
-  "about": "About",
-  "welcome": "Welcome to my portfolio"
+  "about": "Soy un desarrollador web Full Stack y estudiante de ingeniería en informática. Me especializo en Python (con los framework's Flask y Django) y bases de datos SQL en el backend y utilizo el framework React para el frontend (además de contar con los conocimientos en HTML, CSS y JavaScript junto a algunas de sus librerías). Disfruto de aprender y trabajar en equipo para crear nuevas tecnologías aportando, además de mis habilidades técnicas, comunicación asertiva y empática con mis compañeros. Busco oportunidades en el área IT donde pueda crecer como desarrollador y afrontar nuevos desafíos profesionales",
+  "welcome": "Welcome to my portfolio",
+  "experience": [
+    {
+      "title": "Backend Developer – Girolabs",
+      "description": "Me desempeño como desarrollador backend, participando en el diseño e implementación de nuevos sistemas, así como en el mantenimiento y optimización de proyectos ya existentes. Mis responsabilidades incluyen el diseño y mantenimiento de arquitecturas backend, modelado y gestión de bases de datos, desarrollo y documentación de APIs, procesamiento y formateo de datos, e integración con servicios externos. Colaboro directamente con el equipo frontend para la implementación de funcionalidades asegurando que las soluciones sean eficientes, seguras y escalables.",
+      "from": "Agosto del 2025",
+      "to": "",
+      "tech": [
+        "Python",
+        "Django",
+        "DRF",
+        "Git",
+        "Wagtail",
+        "SQL (MySQL, PostgreSQL)",
+        "GitLab",
+        "React",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Frontend Developer – Girolabs",
+      "description": "Cumplí con el rol de desarrollador frontend, participando en el desarrollo desde cero y en el mantenimiento de proyectos existentes, como sistemas de gestión e interfaces administrativas para la visualización y manejo de datos, y en algunos casos también he implementado funcionalidades del lado del backend. Colaboro en equipo con diseñadores y desarrolladores backend, y también de forma autónoma según el proyecto. Mis tareas abarcan desde el maquetado de interfaces hasta la implementación de lógica, consumo de APIs e integración con backend.",
+      "from": "Enero del 2025",
+      "to": "Agosto del 2025",
+      "tech": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Django",
+        "DRF",
+        "Git",
+        "GitLab"
+      ]
+    },
+    {
+      "title": "Q.A. Teste – C.L.T (Control de calidad de App y web para Banco Continenstal SAECA.)",
+      "description": "Cumplí con el rol de Q.A. Teste para la App y Web de Banco Continental de forma tercerizada, asegurando el adecuado funcionamiento de estos productos y el cumplimiento de los estándares de calidad que se espera de estos, manteniendo una comunicación constante con el equipo de desarrollo para agilizar el proceso de desarrollar productos de la mayor calidad.",
+      "from": "03/06/2024",
+      "to": "31/07/2024",
+      "tech": ["Azure DevOps", "PL/SQL DEV", "Git", "Postman", "JavaScript"]
+    }
+  ],
+  "education": [
+    {
+      "title": "Certificado de desarrollador FullStack Python - Coding Dojo",
+      "description": "Calificación perfecta en Web Fundamentals, Python y Proyectos del Bootcamp",
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Python",
+        "MySQL",
+        "Flask",
+        "Django"
+      ]
+    },
+    {
+      "title": "Ingeniería en Informática (Cursando) - Facultad Politécnica U.N.A.",
+      "description": "Formación en conocimientos en desarrollo de software, bases de datos, redes, sistemas operativos y gestión de proyectos tecnológicos.",
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Python",
+        "MySQL",
+        "Flask",
+        "Django"
+      ]
+    }
+  ],
+  "project":{
+    "description": "Algunos proyectos en los que he trabajado:",
+    "projects":[
+      
+    ]
+  }
 }

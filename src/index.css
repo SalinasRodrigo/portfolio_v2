@@ -1,3 +1,59 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-primary: #8dcbf2;
+  --color-secondary: #b6e1f2;
+  --color-tertiary: #734226;
+  --color-accent1: #f27a5e;
+  --color-accent2: #d94e41;
+
+  --color-bg: #ffffff;
+  --color-text: #000000;
+}
+
+.dark {
+  --color-primary: #594753;
+  --color-secondary: #05040d;
+  --color-tertiary: #403e8c;
+  --color-accent1: #020540;
+  --color-accent2: #f2a2c0;
+
+  --color-bg: #05040d;
+  --color-text: #f5f5f5;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    var(--color-accent1) 25%,
+    var(--color-tertiary) 97%
+  );
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--color-text);
+  font-size: var(--text-7xl);
+  line-height: var(--tw-leading, var(--text-7xl--line-height));
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  color: var(--color-text);
+  font-size: var(--text-4xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height));
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+}
+
+h5 {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--color-text);
+  font-size: var(--text-4xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height));
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+}

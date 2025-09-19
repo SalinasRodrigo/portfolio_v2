@@ -1,0 +1,15 @@
+.fullscreen-img {
+  height: 100dvh;
+  width: 100vw;
+  object-fit: cover; /* aquí sí funciona */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -10;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent1));
+}
