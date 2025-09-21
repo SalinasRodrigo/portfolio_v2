@@ -1,0 +1,27 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #8DCBF2; 
+  border-radius: 5px 20px;
+  transition: transform 0.25s;
+}
+
+.box:hover{
+  transform: translate(4px, 4px);
+}
+
+.box + span {
+  position: absolute;
+  top: 24px;
+  right: -24px;
+  width: 300px;
+  height: 300px;
+  z-index: -10;
+  border: 8px solid black; 
+  transition: transform 0.25s;
+  border-radius: 20px 5px;
+}
+
+.box:hover + span {
+  transform: translate(-4px, -4px);
+}

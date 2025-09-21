@@ -1,15 +1,42 @@
 .fullscreen-img {
   height: 100dvh;
   width: 100vw;
-  object-fit: cover; /* aquí sí funciona */
-
+  object-fit: cover;
+  inset: 0;
   position: absolute;
   top: 0;
   left: 0;
-
+  opacity: 0.75;
   z-index: -10;
+  animation: image-fade-out linear;
+  animation-timeline: view();
+  animation-range: exit;
+}
+
+@keyframes image-fade-out {
+  25% {opacity: 1;}
+  85%, 100% {opacity: 0; scale: 3;}
+}
+
+.head-line{
+  display: grid;
+  place-items: center;
+  position: relative;
+  height: 100svh;
+  overflow-x: clip;
+  padding-block: 7rem;
+  margin-block-end: 3rem;
+  animation: fade-out linear;
+  animation-timeline: view();
+  animation-range: exit;
+}
+
+@keyframes fade-out {
+  to {opacity: 0;}
 }
 
 .bg-gradient {
   background: linear-gradient(135deg, var(--color-primary), var(--color-accent1));
 }
+
+
