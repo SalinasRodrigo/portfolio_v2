@@ -16,17 +16,17 @@ export function Layout() {
             <div></div>
             <div></div>
           </label>
-          <div className=" fixed bottom-0 left-5 z-0 flex flex-col justify-center items-center gap-5">
-            <ul >
-              <li><button><CiLinkedin className="h-10 w-10"/></button></li>
-              <li><button><CiMail className="h-10 w-10" /></button></li>
-              <li><button><FaGithub className="h-10 w-10" /></button></li>
+          <div className="left-bar">
+            <ul>
+              <li><button className="cursor-pointer"><CiLinkedin className="h-10 w-10"/></button></li>
+              <li><button className="cursor-pointer"><CiMail className="h-10 w-10" /></button></li>
+              <li><button className="cursor-pointer"><FaGithub className="h-10 w-10" /></button></li>
             </ul>
-            <span className="h-24 w-[1px] bg-black"></span>
+            <span className="Vertical-line"></span>
           </div>
-          <div className="fixed bottom-0 right-5 z-0 flex flex-col justify-center items-center gap-5">
+          <div className="right-bar">
             <p className="[writing-mode:vertical-rl] text-xl">salinas.e.rodrigo@gmail.com</p>
-            <span className="h-52 w-[1px] bg-black"></span>
+            <span className="Vertical-line"></span>
           </div>
       </nav>
       <main className="w-full h-full">

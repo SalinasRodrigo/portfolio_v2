@@ -14,7 +14,10 @@ export default function About() {
           <span className="h-80 w-80"></span>
         </div>
         <div className="flex flex-col gap-4">
-          <p className="max-w-[65ch] text-4xl about-text">Me dedico al desarrollo web, trabajo tanto en backend como en frontend. Me gusta aprender, colaborar y aplicar mis conocimientos para crear proyectos útiles.</p>
+          <p className="max-w-[65ch] text-4xl about-text">
+            Me dedico al desarrollo web, trabajo tanto en backend como en frontend.
+            Me gusta aprender, colaborar y aplicar mis conocimientos para diseñar y desarollar nuevas tecnologias.
+          </p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row w-full gap-30 justify-end mt-20">
